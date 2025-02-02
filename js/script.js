@@ -26,6 +26,16 @@ window.onscroll = () =>{
 
 }
 
+function toggleMenu() {
+  const header2 = document.querySelector('.header-2');
+  if (header2.style.display === 'none' || header2.style.display === '') {
+      header2.style.display = 'block';
+  } else {
+      header2.style.display = 'none';
+  }
+}
+
+
 window.onload = () =>{
 
   if(window.scrollY > 80){

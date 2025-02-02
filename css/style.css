@@ -3,7 +3,7 @@
 :root{
     --green:#fe9627;
     --dark-color:#000000;
-    --black:#363636;
+    --black:#5d5c5c;
     --light-color:#9c9999;
     --border:.1rem solid rgba(0,0,0,.1);
     --border-hover:.1rem solid var(--black);
@@ -177,6 +177,20 @@ section{
 
 }
 
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
 .bottom-navbar{
     text-align: center;
     background:var(--green);
@@ -311,10 +325,6 @@ section{
     align-items: center;
     flex-wrap: wrap;
     gap:1.5rem;
-}
-
-.home .row .content{
-    flex:1 1 42rem;
 }
 
 .home .row .books-slider{
